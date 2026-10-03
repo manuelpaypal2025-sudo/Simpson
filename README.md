@@ -1,22 +1,13 @@
 # Simpson Touch Controls
 
-Este repositorio se ha dejado preparado como base Android para un juego con controles táctiles y personalización visual.
-
-## Qué incluye
-- Proyecto Android con Kotlin
-- Vista de juego con movimiento por pantalla táctil
-- Cuatro botones táctiles: izquierda, derecha, arriba y acción
-- Selector de estilo visual para cambiar las imágenes de los controles
-- Soporte para personalizar el look del juego desde la UI
-
-## Cómo compilar
-1. Abre el proyecto en Android Studio.
-2. Sincroniza Gradle.
-3. Ejecuta la app en un emulador o dispositivo Android.
-
-## Archivos clave
-- `app/src/main/java/com/simpson/game/MainActivity.kt`
-- `app/src/main/java/com/simpson/game/GameView.kt`
-- `app/src/main/res/layout/activity_main.xml`
-- `app/src/main/res/drawable/`
-
+<resources>
+    <string name="app_name">Simpson</string>
+    <string name="left_button">Mover a la izquierda</string>
+    <string name="right_button">Mover a la derecha</string>
+    <string name="up_button">Subir</string>
+    <string name="action_button">Acción</string>
+    <string name="skin_button">Cambiar estilo</string>
+    <string name="skin_title">Elegir estilo de los controles</string>
+    <string name="customize_button_images">Personalizar imagen de botones</string>
+    <string name="reset_button_images">Restablecer imágenes predeterminadas</string>
+</resources>
